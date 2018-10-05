@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    height: 100vh;
+    background: linear-gradient(to right, white, #e4e3e8);
+    justify-items: center;
+    align-items: center;
+}
+
